@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Coffee Theme Palette -->
+    <color name="coffee_dark">#361E12</color>
+    <color name="coffee_primary">#4A2B1D</color>
+    <color name="coffee_accent">#E0A96D</color>
+    <color name="coffee_light_bg">#FDF8F5</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#211510</color>
+    <color name="text_secondary">#8C827A</color>
+    <color name="text_hint">#B5AAA0</color>
+
+    <!-- Status Colors -->
+    <color name="input_border">#EAE0D5</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
