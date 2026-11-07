@@ -1,67 +1,69 @@
-Coffee and Bites – Mobile Application
 
-Coffee and Bites is an Android-based mobile application developed using Kotlin and XML. This application allows users to explore menus, customize beverages and desserts, manage their shopping cart, and place orders through a simple and user-friendly interface.
-The application is designed based on assignment wireframes and UI guidelines, featuring a warm coffee-inspired theme and an intuitive ordering experience.
+Coffee and Bites – Aplikasi Mobile
 
- Features
+Coffee and Bites adalah aplikasi mobile berbasis Android yang dikembangkan menggunakan Kotlin dan XML. Aplikasi ini memungkinkan pengguna untuk melihat berbagai pilihan menu kopi, minuman non-kopi, dan makanan penutup, menyesuaikan pesanan, mengelola keranjang belanja, serta melakukan pemesanan melalui antarmuka yang sederhana dan mudah digunakan.
 
- 1. Splash & Welcome Screen
-- Displays the Coffee and Bites branding.
-- Provides an attractive introduction to the application.
+Aplikasi ini dirancang berdasarkan wireframe tugas dan panduan desain UI, dengan mengusung tema warna khas kopi yang hangat serta pengalaman penggunaan yang intuitif.
 
- 2. Authentication
-- User Sign Up and Login pages.
-- Input validation for user credentials.
-- Password visibility toggle.
-- User-friendly authentication interface.
+Fitur Aplikasi
 
- 3. Home Menu & Categories
-- Displays available food and beverage products.
-- Dynamic menu filtering by category:
-    - Coffee
-    - Non-Coffee
-    - Dessert
-- Product information and menu selection.
+1. Splash & Welcome Screen
+- Menampilkan identitas dan branding Coffee and Bites.
+- Memberikan tampilan awal yang menarik kepada pengguna.
 
- 4. Product Customization
-- Bottom Sheet interface for customizing selected products.
-- Available customization options:
-    - Quantity
-    - Beverage Size
-    - Milk Type
-    - Sugar Level
-    - Extra Shot (for eligible coffee products)
-- Customization options adapt to the selected product category.
+2. Autentikasi
+- Halaman Sign Up dan Login.
+- Validasi input data pengguna.
+- Fitur untuk menampilkan dan menyembunyikan kata sandi.
+- Antarmuka autentikasi yang mudah digunakan.
 
- 5. Shopping Cart
-- Floating Action Cart Button.
-- Dynamic cart item counter.
-- Add and manage selected products.
-- View selected items before checkout.
+3. Menu Utama & Kategori
+- Menampilkan berbagai produk makanan dan minuman.
+- Penyaringan menu berdasarkan kategori secara dinamis:
+  - Coffee
+  - Non-Coffee
+  - Dessert
+- Menampilkan informasi produk dan pilihan menu.
 
- 6. Order Flow
+4. Kustomisasi Produk
+- Menggunakan antarmuka Bottom Sheet untuk menyesuaikan produk yang dipilih.
+- Pilihan kustomisasi meliputi:
+  - Jumlah pesanan (Quantity)
+  - Ukuran minuman (Size)
+  - Jenis susu (Milk Type)
+  - Tingkat kemanisan (Sugar Level)
+  - Tambahan espresso (Extra Shot) untuk produk kopi tertentu.
+- Pilihan kustomisasi menyesuaikan dengan kategori produk yang dipilih.
 
-A multi-step ordering process consisting of:
+5. Keranjang Belanja
+- Tombol keranjang belanja yang mengambang (Floating Action Cart Button).
+- Penghitung jumlah item dalam keranjang secara dinamis.
+- Menambahkan dan mengelola produk yang dipilih.
+- Melihat daftar pesanan sebelum melakukan checkout.
 
-- Shipping Address: Users enter recipient information and delivery address.
-- Order Validation: Displays order details and validates the selected items.
-- Order Confirmation: Shows successful order confirmation with a checkmark indicator.
+6. Proses Pemesanan
 
- 7. My Profile
-- Displays user profile information.
-- Provides an overview of profile settings.
+Proses pemesanan terdiri dari beberapa tahapan:
 
- Tech Stack & Tools
+- Shipping Address: Pengguna mengisi informasi penerima dan alamat pengiriman.
+- Order Validation: Menampilkan detail pesanan dan melakukan validasi terhadap item yang dipilih.
+- Order Confirmation: Menampilkan konfirmasi bahwa pesanan berhasil dilakukan dengan indikator tanda centang.
 
-- Programming Language: Kotlin
-- UI Design: Android XML Layouts
-- UI Components: Material Design Components
-- Design System: Material 3
+7. Profil Pengguna
+- Menampilkan informasi profil pengguna.
+- Menyediakan tampilan pengaturan profil.
+
+Teknologi & Tools
+
+- Bahasa Pemrograman: Kotlin
+- Desain Antarmuka: Android XML Layouts
+- Komponen UI: Material Design Components
+- Sistem Desain: Material 3
 - IDE: Android Studio
 - Minimum SDK: API 21 (Android 5.0 Lollipop)
 - Target SDK: API 34 (Android 14)
 
- Project Structure
+Struktur Proyek
 
 
 app/
@@ -99,38 +101,36 @@ app/
             │
             └── drawable/
 
+Konsep Desain UI
 
- UI Design Concept
+Aplikasi ini menggunakan konsep desain bertema kopi dengan kombinasi warna yang hangat dan nyaman dipandang.
 
-The application uses a coffee-inspired visual concept with a warm and inviting color palette.
+Beberapa elemen desain yang diterapkan:
+- Kombinasi warna khas kopi.
+- Tata letak yang bersih dan terorganisir.
+- Kolom input dan tombol dengan sudut membulat.
+- Penggunaan tipografi dan jarak antarelemen yang konsisten.
+- Navigasi yang mudah dipahami.
+- Tampilan responsif menggunakan Android XML.
 
-Design highlights:
-- Coffee-themed color combinations.
-- Clean and organized layouts.
-- Rounded input fields and buttons.
-- Consistent typography and spacing.
-- User-friendly navigation.
-- Responsive layouts using Android XML.
+Cara Menjalankan Proyek
 
- Getting Started
+Ikuti langkah-langkah berikut untuk menjalankan aplikasi:
 
-Follow these steps to run the project:
+1. Clone atau unduh repositori proyek ini.
+2. Buka proyek menggunakan Android Studio.
+3. Tunggu hingga proses Gradle Sync selesai.
+4. Hubungkan perangkat Android atau jalankan emulator.
+5. Build dan jalankan aplikasi.
 
-1. Clone or download this repository.
-2. Open the project using Android Studio.
-3. Wait for Gradle Sync to finish.
-4. Connect an Android device or start an emulator.
-5. Build and run the application.
+Informasi Proyek
 
- Project Information
-
-- Project Name: Coffee and Bites
+- Nama Proyek: Coffee and Bites
 - Platform: Android
-- Development Language: Kotlin
+- Bahasa Pemrograman: Kotlin
 - Layout: XML
-- Development Environment: Android Studio
+- Lingkungan Pengembangan: Android Studio
 - Target Platform: Android 14
 
----
 
-Coffee and Bites – Your Favorite Coffee and Treats, Just a Tap Away!
+Coffee and Bites – Kopi dan Camilan Favorit Anda, Kini dalam Satu Sentuhan!
