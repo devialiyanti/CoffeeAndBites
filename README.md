@@ -99,6 +99,7 @@ app/
             │
             └── drawable/
 
+
  UI Design Concept
 
 The application uses a coffee-inspired visual concept with a warm and inviting color palette.
