@@ -63,46 +63,9 @@ Teknologi & Tools
 - Minimum SDK: API 21 (Android 5.0 Lollipop)
 - Target SDK: API 34 (Android 14)
 
-Struktur Proyek
 
-
-app/
-└── src/
-    └── main/
-        ├── java/
-        │   └── com/example/coffeeandbites/
-        │       ├── SplashActivity.kt
-        │       ├── SignUpActivity.kt
-        │       ├── LoginActivity.kt
-        │       ├── RegisterActivity.kt
-        │       ├── HomeActivity.kt
-        │       ├── ProfileActivity.kt
-        │       ├── ShippingAddressActivity.kt
-        │       ├── OrderValidationActivity.kt
-        │       ├── OrderConfirmationActivity.kt
-        │       ├── MenuAdapter.kt
-        │       ├── MenuItem.kt
-        │       ├── CartItem.kt
-        │       └── CartManager.kt
-        │
-        └── res/
-            ├── layout/
-            │   ├── activity_splash.xml
-            │   ├── activity_sign_up.xml
-            │   ├── activity_login.xml
-            │   ├── activity_register.xml
-            │   ├── activity_home.xml
-            │   ├── activity_profile.xml
-            │   ├── activity_shipping_address.xml
-            │   ├── activity_order_validation.xml
-            │   ├── activity_order_confirmation.xml
-            │   ├── dialog_customize_menu.xml
-            │   └── item_menu.xml
-            │
-            └── drawable/
 
 Konsep Desain UI
-
 Aplikasi ini menggunakan konsep desain bertema kopi dengan kombinasi warna yang hangat dan nyaman dipandang.
 
 Beberapa elemen desain yang diterapkan:
